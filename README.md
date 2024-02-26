@@ -1,33 +1,46 @@
 # ExpNo 1 :Developing AI Agent with PEAS Description
-NAME: NAVEEN M
-REGISTER NUMBER:212222110029
-AIM:
+#### NAME: Migal G Arunadann
+#### REGISTER NUMBER:212222110025
+### AIM:
 To find the PEAS description for the given AI problem and develop an AI agent
 
-THEORY:
-The Vacuum Cleaner Agent:
+### THEORY:
+#### The Vacuum Cleaner Agent:
 The Vacuum Cleaner Agent is a Python class that simulates the behavior of a basic vacuum cleaner in a two-location environment ("A" and "B"). The agent can perform four actions: move left, move right, suck dirt, and do nothing. Its state includes the current location and dirt status in each location. The agent's initial state is at location "A" with no dirt. Actions like moving and sucking dirt can change its state, and the print_status method displays the current location and dirt status. This agent provides a foundation for simple vacuum cleaner simulations and can be adapted for more complex scenarios
 
-PEAS DESCRIPTION:
-Agent Type	Performance	Environment	Actuators	Sensors
-Vaccum Cleaner agent	Cleaning Dirt	Rooms,floor	Dirt,Cleaning	Location,Sensing Dirt
-DESIGN STEPS:
-STEP 1: Identifying the input
-Location
+### PEAS DESCRIPTION:
+<table>
+  <tr>
+    <td><strong>Agent Type</strong></td>
+    <td><strong>Performance</strong></td>
+     <td><strong>Environment</strong></td>
+    <td><strong>Actuators</strong></td>
+    <td><strong>Sensors</strong></td>
+  </tr>
+    <tr>
+    <td><strong>Vaccum Cleaner agent</strong></td>
+    <td><strong>Cleaning Dirt</strong></td>
+     <td><strong>Rooms,floor</strong></td>
+    <td><strong>Dirt,Cleaning</strong></td>
+    <td><strong>Location,Sensing Dirt</strong></td>
+  </tr>
+</table>
 
-STEP 2: Identifying the output:
-move_left: Moves the agent to the left if it is currently at location "B.".
-move_right: Moves the agent to the right if it is currently at location "A."
-suck_dirt: Sucks dirt in the current location if there is dirt present.After sucking dirt, status in that location is updated to indicate cleanliness.
-do_nothing: Represents a passive action where the agent remains idle.
+### DESIGN STEPS:
+#### STEP 1: Identifying the input
+   Location
+#### STEP 2: Identifying the output:
+   move_left:  Moves the agent to the left if it is currently at location "B.".<br>
+   move_right: Moves the agent to the right if it is currently at location "A."<br>
+   suck_dirt:  Sucks dirt in the current location if there is dirt present.After sucking dirt, status in that location is updated to indicate cleanliness.<br>
+   do_nothing: Represents a passive action where the agent remains idle.
+#### STEP 3: Developing the PEAS description:
+   PEAS description is developed by the performance, environment, actuators, and sensors in an agent.
+#### STEP 4: Implementing the AI agent:
+   Clean the room and Search for dirt and Suck it.
 
-STEP 3: Developing the PEAS description:
-PEAS description is developed by the performance, environment, actuators, and sensors in an agent.
-
-STEP 4: Implementing the AI agent:
-Clean the room and Search for dirt and Suck it.
-
-PROGRAM:
+### PROGRAM:
+```PY
 Developing AI Agent with PEAS Description
 Developed by: NAVEEN M
 RegisterNumber: 212222110029
@@ -87,8 +100,10 @@ agent.perform_action("suck")
 agent.print_status()
 agent.perform_action("nothing")
 agent.print_status()
-OUTPUT:
-307017592-d25b99e5-e78b-4193-ab41-ff72eb3a0bc6
+```
+### OUTPUT:
+![307017592-d25b99e5-e78b-4193-ab41-ff72eb3a0bc6](https://github.com/naveen-m0804/Developing-AI-Agent-with-PEAS-Description/assets/117974950/b89cebeb-6b61-4127-a644-e8f823e5a580)
 
-RESULT:
-Thus the Developing AI Agent with PEAS Description was implemented using python programming.
+### RESULT:
+Thus the Developing AI Agent with PEAS Description was implemented  using
+python programming.
